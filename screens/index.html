@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Store - Principal</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -57,25 +58,25 @@
                 <a href="" class="bseller__head-link">Ver todo</a>
             </div>
             <div class="bseller__cards">
-                <div class="bseller__cards_card">
+                <div class="bseller__cards_card" data-aos="fade-up-right">
                     <img src="../assets/img/ancientsouls.webp" alt="" class="bseller__cards_card-img">
                     <p class="card-title">Almas antiguas</p>
                     <p class="card-price">$499.99</p>
                     <button class="card-btn">Agregar</button>
                 </div>
-                <div class="bseller__cards_card">
+                <div class="bseller__cards_card" data-aos="fade-up">
                     <img src="../assets/img/chronosplit.webp" alt="" class="bseller__cards_card-img dos">
                     <p class="card-title">Chronosplit</p>
                     <p class="card-price">$499.99</p>
                     <button class="card-btn">Agregar</button>
                 </div>
-                <div class="bseller__cards_card">
+                <div class="bseller__cards_card" data-aos="fade-up">
                     <img src="../assets/img/playbox.webp" alt="" class="bseller__cards_card-img">
                     <p class="card-title">PlayBox XZ Edition</p>
                     <p class="card-price">$9,000.00</p>
                     <button class="card-btn">Agregar</button>
                 </div>
-                <div class="bseller__cards_card">
+                <div class="bseller__cards_card" data-aos="fade-up-left">
                     <img src="../assets/img/predador.webp" alt="" class="bseller__cards_card-img">
                     <p class="card-title">Predator</p>
                     <p class="card-price">$359.99</p>
@@ -87,5 +88,14 @@
             
         </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            easing: 'ease',
+            once: true,
+        });
+    </script>
+    <script src="../assets/scripts/parallax.js"></script>
 </body>
 </html>

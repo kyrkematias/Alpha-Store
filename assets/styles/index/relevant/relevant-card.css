@@ -34,6 +34,7 @@
 }
 
 .relevant__card-link{
+    border: 1px solid #9063e2;
     border-radius: 35px;
     background: #fff;
     color: #9063e2;
@@ -50,5 +51,6 @@
 .relevant__card-link:hover{
     background: #9063e2;
     color: #fff;
+    border: 1px solid #fff;
 }
 
