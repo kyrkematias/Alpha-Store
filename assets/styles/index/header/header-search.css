@@ -1,0 +1,22 @@
+.header__search{
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #000;
+    border-radius: 25px;
+    display: flex;
+    height: 50px;
+    padding: 0 1rem;
+}
+
+.header__search-input{
+    border: none;
+    width: 350px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.header__search-icon{
+    color: lightgray;
+    font-size: 20px;
+}

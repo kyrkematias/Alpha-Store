@@ -1,0 +1,17 @@
+.relevant{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.relevant-bg{
+    position: fixed;
+    background: url(../../../img/ciberkidinfinitoparallax.jpg) no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vmax;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}

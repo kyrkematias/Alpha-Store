@@ -1,0 +1,50 @@
+.bseller__cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+
+.bseller__cards_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bseller__cards_card-img{
+    width: 330px;
+    margin-bottom: 1rem;
+}
+
+.card-title{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.card-price{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.card-btn{
+    background: #9063e2;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 0.7rem 3.5rem;   
+    transition: 0.5s ease-out;
+}
+
+.card-btn:hover{
+    background: #3b1092;
+}
