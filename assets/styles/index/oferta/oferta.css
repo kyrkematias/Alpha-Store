@@ -1,0 +1,91 @@
+.oferta{
+    background: #000;
+    height: 1180px;
+}
+
+.oferta__container{
+    display: flex;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.oferta__img1{
+    border-radius: 40px;
+    position: absolute;
+    top: 5rem;
+    left: 18rem;
+    width: 550px;
+}
+
+.oferta__img2{
+    border-radius: 40px;
+    position: absolute;
+    top: 18rem;
+    left: 49rem;
+    width: 550px;
+    overflow: hidden;
+}
+
+.oferta__img3{
+    border-radius: 40px;
+    position: absolute;
+    top: 13rem;
+    left: 72rem;
+    width: 550px;
+    overflow: hidden;
+}
+
+.oferta__card{
+    align-items: center;
+    background: #9063e2;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 750px;
+    height: 450px;
+    position: absolute;
+    z-index: 1000;
+    top: 145px;
+    left: 390px;
+}
+
+.oferta__card-title{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.oferta__card-descuento{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 180px;
+    font-weight: 700;
+}
+
+.oferta__card-descr{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.oferta__card-btn{
+    background: #fff;
+    border: 3px solid #9063e2;
+    border-radius: 100px;
+    color: #9063e2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.oferta__card-btn:hover{
+    border: #fff 3px solid;
+    background: #9063e2;
+    color: #fff;
+}
