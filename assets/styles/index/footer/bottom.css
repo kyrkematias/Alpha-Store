@@ -1,0 +1,33 @@
+.bottom{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.bottom__img{
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.bottom__links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.devinfo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    height: 5rem;
+}
