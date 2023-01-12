@@ -39,6 +39,10 @@
         font-size: 18px;
     }
 
+    .info__title{
+        font-size: 20px;
+    }
+
     .mail {
         width: auto;
     }

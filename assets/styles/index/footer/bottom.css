@@ -33,5 +33,19 @@
 }
 
 @media (max-width: 768px){
-    
+    .bottom{
+        flex-direction: column;
+        gap: 3rem;
+        padding: 5rem 2rem;
+    }
+    .socials{
+        font-size: 10px;
+    }
+    .devinfo{
+        font-size: 18px;
+    }
+    .devinfo p {
+        width: 100%;
+        padding: 2rem;
+    }
 }
