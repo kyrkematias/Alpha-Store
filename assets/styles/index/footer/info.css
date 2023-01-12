@@ -30,7 +30,7 @@
 @media (max-width: 768px){
     .info{
         flex-direction: column;
-        padding: 5rem;
+        padding: 5rem 2rem;
     }
 
     .info__item{
@@ -44,5 +44,7 @@
 
     .logo{
         margin: 3rem 0;
+        width: 75px;
+        height: 75px;
     }
 }
