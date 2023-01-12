@@ -36,6 +36,7 @@
     .info__item{
         margin: 1rem 0;
         width: auto;
+        font-size: 18px;
     }
 
     .mail {
