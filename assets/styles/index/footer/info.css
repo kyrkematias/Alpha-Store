@@ -26,3 +26,23 @@
     width: 150px;
     height: 150px;
 }
+
+@media (max-width: 768px){
+    .info{
+        flex-direction: column;
+        padding: 5rem;
+    }
+
+    .info__item{
+        margin: 1rem 0;
+        width: auto;
+    }
+
+    .mail {
+        width: auto;
+    }
+
+    .logo{
+        margin: 3rem 0;
+    }
+}
