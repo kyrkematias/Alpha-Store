@@ -21,3 +21,9 @@
     color: lightgray;
     font-size: 20px;
 }
+
+@media (max-width: 768px){
+    .header__search{
+        display: none;
+    }
+}

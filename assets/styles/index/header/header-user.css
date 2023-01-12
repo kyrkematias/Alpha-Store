@@ -31,3 +31,23 @@
     color: #fff;
     font-size: 35px;
 }
+
+.menu-icon{
+    color: #fff;
+    font-size: 35px;
+    display: none;
+}
+
+@media (max-width: 769px){
+    .menu-icon{
+        display: contents;
+    }
+    .header__user-link{
+        display: inherit;
+        align-items: center;
+    }
+    .header__user{
+        justify-content: space-between;
+        width: calc(100vw - 2rem);
+    }
+}

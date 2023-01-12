@@ -24,3 +24,9 @@
 .header__nav-list-item:hover{
     color: #9063e2;
 }
+
+@media (max-width: 768px){
+    .header__nav-list{
+        display: none;
+    }
+}
