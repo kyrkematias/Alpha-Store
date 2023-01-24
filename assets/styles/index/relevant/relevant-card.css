@@ -54,3 +54,31 @@
     border: 1px solid #fff;
 }
 
+@media (max-width: 768px){
+    .relevant__card{
+        border-radius: 30px;
+        margin: 2rem 0;
+        width: 360px;
+        height: 360px;
+        top: 120px;
+        left: 1.5rem;
+    }
+    .relevant__card-title{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0.5rem 2.5rem;
+    }
+    .relevant__card-name{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0.5rem 2.5rem;
+    }
+    .relevant__card-link{
+        border-radius: 35px;
+        box-sizing: border-box;
+        font-size: 13px;
+        margin: 1.5rem 2.5rem;
+        padding: 1rem 0.5rem;
+        width: auto;
+    }
+}

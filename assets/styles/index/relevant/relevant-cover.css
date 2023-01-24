@@ -9,3 +9,17 @@
     height: 720px;
     z-index: 0;
 }
+
+@media (max-width: 768px){
+    .relevant__cover{
+        background-size: contain;
+        border-radius: 30px;
+        margin: 2rem 0;
+        width: 350px;
+        height: 450px;
+        top: 520px;
+        left: 1.5rem;
+        position: absolute;
+        background-position: center;
+    }
+}
