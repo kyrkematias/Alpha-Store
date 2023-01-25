@@ -67,6 +67,7 @@
         font-size: 15px;
         font-weight: 500;
         margin: 0.5rem 2.5rem;
+        width: 250px;
     }
     .relevant__card-name{
         font-size: 40px;

@@ -65,5 +65,31 @@
 .news__btn:hover{
     background: #9063e2;
     color: #fff;
-    
+}
+
+@media (max-width: 768px){
+    .news{
+        padding: 2rem 0;
+        height: 120vh;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+    .news__title{
+        font-size: 20px;
+    }
+    .news__p{
+        font-size: 18px;
+    }
+    .news__label{
+        margin-top: 1.5rem;
+        font-size: 15px;
+    }
+    .news__input{
+        width: 250px;
+        height: 2rem;
+    }
+    .news__btn{
+        width: 260px;
+        height: 2rem;
+    }
 }

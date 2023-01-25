@@ -44,3 +44,19 @@
     border: 3px solid #9063e2;
     color: #9063e2;
 }
+
+@media (max-width: 768px){
+    .banner__title{
+        font-size: 35px;
+    }
+    .banner__descr{
+        width: 200px;
+        font-size: 20px;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .banner__btn{
+        font-size: 15px;
+        padding: 0.5rem 1rem;
+    }
+}
