@@ -70,7 +70,7 @@
 @media (max-width: 768px){
     .news{
         padding: 2rem 0;
-        height: 120vh;
+        height: 70vh;
         justify-content: flex-start;
         width: 100vw;
     }
