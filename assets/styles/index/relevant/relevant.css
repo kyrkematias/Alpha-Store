@@ -19,11 +19,12 @@
 @media (max-width: 768px){
     .relevant{
         flex-direction: column;
-        height: 1500px;
+        height: 850px;
     }
     .relevant-bg{
         top: 6.5rem;
         left: 0;
         background-attachment: fixed;
+        height: 900px;
     }
 }

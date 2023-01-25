@@ -89,3 +89,48 @@
     background: #9063e2;
     color: #fff;
 }
+
+@media (max-width: 768px){
+    .oferta__card{
+        width: 360px;
+        height: 250px;
+        left: 25px;
+        top: 2rem;
+    }
+    .oferta__card-title{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .oferta__card-descuento{
+        font-size: 50px;
+    }
+    .oferta__card-descr{
+        font-size: 30px;
+    }
+    .oferta__card-btn{
+        font-size: 13px;
+        padding: 0.7rem 0.6rem;
+        word-spacing: 0.2em;
+    }
+    .oferta__img1{
+        left: 35px;
+        top: 320px;
+        width: 195px;
+        border-radius: 30px;
+    }
+    .oferta__img2{
+        width: 195px;
+        border-radius: 30px;
+        left: 175px;
+        top: 470px;
+    }
+    .oferta__img3{
+        width: 195px;
+        border-radius: 30px;
+        left: 35px;
+        top: 670px;
+    }
+    .oferta{
+        height: 950px;
+    }
+}
