@@ -1,15 +1,45 @@
 .exp__menu{
     display: none;
+    
+}
+
+.exp__menu2{
+    display: none;
+    
+}
+
+.exp__menu:focus{
+    animation: desappear 1s ;
+}
+
+@keyframes desappear {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(768px);
+    }
 }
 
 .filters__hidden{
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     background: #000;
     top: 20px;
     left: 0;
+    width: 100vw;
     height: 100vh;
+    animation: apper 1s alternate;
+}
+
+@keyframes apper {
+    0%{
+        transform: translateX(768px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 
 .menu__head{
@@ -54,6 +84,8 @@
 .menu__container{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+
 }
 
 .menu__deployable{
@@ -65,6 +97,22 @@
     flex-direction: column;
     color: #fff;
     padding: 1.5rem;
+    border-bottom: 1px solid gray;
+    animation: fadein-top 0.5s;
+}
+
+@keyframes fadein-top{
+    0%{
+        transform: translateY(-350px);
+        opacity: 0;
+    }
+    55%{
+        opacity: 0;  
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .deployable__ul{
