@@ -6,9 +6,14 @@ var plus = document.querySelector('.fa-plus');
 function show(){
     setTimeout(function showCategory(){
         menu.classList.toggle('menu__deployableShows');
-        plus.classList.replace('fa-plus', 'fa-minus');
+        plus.classList.toggle('fa-minus');
     }, 150)
 }
 
+var menuFilter = document.querySelector('.exp__menu');
+
+function showMenu(){
+    menuFilter.classList.toggle('filters__hidden');
+}
 
 
