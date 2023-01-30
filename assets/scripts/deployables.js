@@ -16,4 +16,8 @@ function showMenu(){
     menuFilter.classList.toggle('filters__hidden');
 }
 
+function close(){
+    menuFilter.classList.toggle('filters__hidden');
+}
+
 
