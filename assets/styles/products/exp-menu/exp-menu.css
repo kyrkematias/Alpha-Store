@@ -29,6 +29,11 @@
     padding: 1.5rem;
     color: #fff;
     cursor: pointer;
+    border-bottom: 1px solid gray;
+}
+
+.categorynoborder{
+    border-bottom: none;
 }
 
 .p__category{
