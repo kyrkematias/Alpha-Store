@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../assets/styles/index/header/header.css">
+    <link rel="stylesheet" href="../assets/styles/index/header/header-search.css">
+    <link rel="stylesheet" href="../assets/styles/index/header/header-nav.css">
+    <link rel="stylesheet" href="../assets/styles/index/header/header-user.css">
+    <link rel="stylesheet" href="../assets/styles/products/main-head/main-head.css">
+    <link rel="stylesheet" href="../assets/styles/products/main-head/filter.css">
+    <link rel="stylesheet" href="../assets/styles/products/exp-menu/exp-menu.css">
+    <link rel="stylesheet" href="../assets/styles/products/main-head/filter.css">
+    <link rel="stylesheet" href="../assets/styles/products/main-head/ranges.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__search">
+            <input type="text" placeholder="Buscar" class="header__search-input">
+            <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+        </div>
+        <div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item"><a href="">Productos</a></li>
+                    <li class="header__nav-list-item"><a href="">Ofertas</a></li>
+                    <li class="header__nav-list-item"><a href="">Contactanos</a></li>
+                </ul>
+                <div class="header__user">
+                    <a href="" class="header__user-link"><i class="fa-solid fa-user user-icon"></i>Ingresar</a>
+                    <a href=""><i class="fa-solid fa-cart-shopping cart-i"></i></a>
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="mainHead">
+            <p class="mainHead__p">COMPRAR TODO</p>
+            <div class="filters">
+                <a type="menu" class="filters__btn">Filtro</a>
+                <i class="fa-solid fa-filter filter__i"></i>
+            </div>
+        </section>
+        <menu class="exp__menu">
+            <div class="menu__head">
+                <p class="menu__p">Filtrar por (26 productos)</p>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu__container" >
+                <div class="menu__category" onclick="show()">
+                    <p class="p__category">Categoria</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="menu__deployable">
+                    <ul class="deployable__ul">
+                        <li class="deployable__li">Todos</li>
+                        <li class="deployable__li">Consolas</li>
+                        <li class="deployable__li">Juegos</li>
+                        <li class="deployable__li">Controles</li>
+                        <li class="deployable__li">Accesorios</li>
+                        <li class="deployable__li">Ofertas</li>
+                        <li class="deployable__li">Más vendidos</li>
+                    </ul>
+                </div>
+                <div class="menu__category" onclick="">
+                    <p class="p__category">Precio</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <!--slider-->
+                <div class="wrapper">
+                    <div class="container">
+                        <div class="values">
+                            <span id="range1">
+                                0
+                            </span>
+                            <span>
+                                &dash;
+                            </span>
+                            <span id="range2">
+                                100
+                            </span>
+                        </div>
+                        <div class="slider-track">
+                        </div>
+                        <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                        <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+                    </div>
+                </div>
+            </div>
+        </menu>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            easing: 'ease',
+            once: true,
+        });
+    </script>
+    <script src="../assets/scripts/deployables.js"></script>
+    <script src="../assets/scripts/slider.js"></script>
+</body>
+</html>

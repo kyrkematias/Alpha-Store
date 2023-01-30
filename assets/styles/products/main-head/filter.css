@@ -1,0 +1,22 @@
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filters__btn{
+    color: #fff;
+    background: #000;
+    padding: 0.7rem 6rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filter__i{
+    color: #fff;
+    background: #000;
+    padding: 0.7rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
