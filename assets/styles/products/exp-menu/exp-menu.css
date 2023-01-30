@@ -80,22 +80,24 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    padding: 3rem 2rem 1.5rem 2rem;
-    gap: 2rem;
+    padding: 3rem 1rem 1.5rem 1rem;
+    gap: 1rem;
 }
 
 .reset{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     color: gray;
     border: 1px solid gray;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     width: 100px;
     text-align: center;
+    height: auto;
+    width: 124px;
 }
 
 .apply{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     color: #000;
     background-color: rgb(250, 247, 247);
     border: 1px solid rgb(250, 247, 247);
@@ -103,5 +105,5 @@
     font-size: 12px;
     width: 100px;
     text-align: center;
-
+    width: 124px;
 }
